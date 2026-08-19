@@ -1,0 +1,21 @@
+PASS tests/tasks.routes.test.js
+PASS tests/taskService.test.js
+-----------------|---------|----------|---------|---------|-------------------
+File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------|---------|----------|---------|---------|-------------------
+All files        |   97.45 |    97.75 |   93.33 |    97.2 |                   
+ src             |   69.23 |       75 |       0 |   69.23 |                   
+  app.js         |   69.23 |       75 |       0 |   69.23 | 10-11,17-18       
+ src/routes      |     100 |      100 |     100 |     100 |                   
+  tasks.js       |     100 |      100 |     100 |     100 |                   
+ src/services    |     100 |    94.73 |     100 |     100 |                   
+  taskService.js |     100 |    94.73 |     100 |     100 | 22                
+ src/utils       |     100 |      100 |     100 |     100 |                   
+  validators.js  |     100 |      100 |     100 |     100 |                   
+-----------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       59 passed, 59 total
+Snapshots:   0 total
+Time:        1.959 s
+Ran all test suites.
